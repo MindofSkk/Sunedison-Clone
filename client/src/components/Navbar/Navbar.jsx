@@ -12,10 +12,11 @@ import {
 } from "@chakra-ui/react";
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import styles from "./Navbar.module.css";
 
 export const Navbar = () => {
+  const navigate=useNavigate()
   return (
     <div className={styles.Navbar}>
       <div className={styles.a}>
@@ -64,7 +65,7 @@ export const Navbar = () => {
         </Menu>
       </div>
       <div className={styles.c}>
-        <Button> Calculator</Button>
+        <button  className={styles.orgbtn} onClick={()=>navigate("/solar-calculator")}>Solar calculator</button>
       </div>
     </div>
   );

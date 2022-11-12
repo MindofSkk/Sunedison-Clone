@@ -29,3 +29,16 @@
     padding-top:15px ;
     padding-right: 30px;
 }
+.orgbtn {
+    background-color: #e4701e;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+  }
+  .orgbtn:hover
+{
+    background-color: #08285e;
+}
