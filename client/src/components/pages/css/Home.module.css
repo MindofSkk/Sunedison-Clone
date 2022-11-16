@@ -1,13 +1,13 @@
 .firstdiv {
   background-image: url("https://sunedison.in/wp-content/uploads/2022/01/New-Home-banner-image@3x-1-scaled.webp");
   width: 100%;
-  height: 700px;
+  height: 600px;
   background-size: 100% 600px;
   background-repeat: no-repeat;
   border: "1px solid black";
   text-align: center;
   color: white;
-  
+  border: 2px solid red;
 }
 
 .bluebtn {
@@ -40,4 +40,17 @@
   margin: auto;
   /* border: 1px solid greenyellow; */
  
+}
+.secdiv{
+  /* margin:0px 0px 0px 50px; */
+  display: flex;
+  border: 1px solid orangered;
+  justify-content: space-around;
+  height: 150px;
+  background-color: #08285e;
+  color: white;
+}
+.secdiv>div{
+  /* border: 1px solid red; */
+  
 }
